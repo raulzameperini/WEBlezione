@@ -1,0 +1,21 @@
+#loren{
+    color: rgb(240, 36, 36) !important;
+    text-decoration: underline ;
+}
+
+#loren{
+    color: rgb(49, 134, 209);
+    text-decoration: none;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+ol[reversed]{  /*condizione if*/
+    color: green;
+}
+
+li:hover{
+    color: blueviolet;
+}
