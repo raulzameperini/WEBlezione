@@ -44,4 +44,25 @@ switch(auto){
 }
  */
 
+function somma(a,b){
+    return a+b;
+}
+
+const sottrazione = function(a,b){ //cambia come viene allocata in memoria 
+                            // e non è riassegnabile, ed è una ghost function
+    return a-b;
+}
+
+const moltiplicazione = (a,b) => a*b; //funzione landa, non ha la key word function
+                                    //usarla quanda ci sono delle operazioni semplici
+
+let result = somma(5,3);
+console.log(result);
+
+result = sottrazione(9,5);
+console.log(result);
+
+result = moltiplicazione(-2,-3);
+console.log(result);
+
 
